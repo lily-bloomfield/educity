@@ -1,0 +1,14 @@
+.footer-container {
+  border-top: 0.5px solid var(--color-primary);
+  padding: 1% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container ul {
+  display: flex;
+  list-style: none;
+}
+.footer-container ul li {
+  margin: 0.5rem;
+}

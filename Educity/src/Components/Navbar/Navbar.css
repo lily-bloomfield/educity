@@ -1,0 +1,24 @@
+nav {
+  background-color: var(--color-primary);
+  color: var(--color-text-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+}
+.fa-graduation-cap {
+  margin-right: 0.3rem;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  font: 0.5rem;
+  list-style: none;
+  margin: 0.8rem;
+}

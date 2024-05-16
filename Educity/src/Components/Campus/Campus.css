@@ -1,0 +1,27 @@
+.campus-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.campus-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.campus-img-container img {
+  width: 280px;
+  border-radius: 10px;
+}
+.btn-campus {
+  background-color: var(--color-primary);
+  color: var(--color-text-white);
+  margin-top: 3%;
+  padding: 1rem;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
